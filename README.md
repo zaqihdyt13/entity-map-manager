@@ -146,11 +146,7 @@ Base URL: `http://localhost:8080`
 
 ## Technology Decisions
 
-**React and TypeScript** were chosen to build reusable UI components with static type checking.
-
 **Vite** provides a fast development environment and straightforward production builds.
-
-**Go and Gin** provide a lightweight backend for handling REST API requests.
 
 **GORM** simplifies database operations, while **SQLite** allows the application to run locally without installing a separate database server.
 
@@ -163,6 +159,8 @@ Base URL: `http://localhost:8080`
 **Tailwind CSS and shadcn/ui** provide consistent styling and reusable interface components.
 
 **Sonner** provides non-blocking feedback for successful and failed operations.
+
+**State Management** Zustand was considered but not implemented because the application's current state management needs can be handled effectively using React's built-in `useState` and `useEffect` hooks. Most state is managed within a small number of related components, so introducing a global state management library would add unnecessary complexity at this stage. Zustand may be considered in the future if the application grows and requires more complex shared state management.
 
 ## AI Usage Workflow
 
@@ -217,6 +215,7 @@ It does not currently include:
 - User authentication and authorization.
 - Real-time synchronization between multiple clients.
 - Automated unit or integration tests.
+- Entity-specific map markers: All entity types currently use the same default map marker. Custom marker icons representing each entity type (such as a vehicle icon for vehicles, a device icon for IoT devices, and a building icon for facilities) have not yet been implemented.
 
 ## License
 
