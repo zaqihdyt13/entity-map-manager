@@ -1,3 +1,5 @@
+<img width="959" height="479" alt="image" src="https://github.com/user-attachments/assets/bc8433b3-d47a-4d25-a776-76b0dde89e4a" />
+
 # Entity Map Management
 
 A full-stack web application for managing and visualizing geographically located entities on an interactive map.
