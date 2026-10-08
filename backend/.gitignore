@@ -1,0 +1,22 @@
+# SQLite database
+*.db
+*.db-shm
+*.db-wal
+
+# Go build artifacts
+*.exe
+*.exe~
+*.test
+/backend
+
+# Environment variables
+.env
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
