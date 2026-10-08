@@ -1,4 +1,4 @@
-<img width="959" height="479" alt="image" src="https://github.com/user-attachments/assets/bc8433b3-d47a-4d25-a776-76b0dde89e4a" />
+<img width="959" height="421" alt="image" src="https://github.com/user-attachments/assets/8b1c14d9-8966-4d76-b7f1-1a5d20116dcb" />
 
 # Entity Map Management
 
