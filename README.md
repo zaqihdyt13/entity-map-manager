@@ -48,8 +48,8 @@ Install the following tools:
 ### 1. Clone the Repository
 
 ```bash
-git clone <repository-url>
-cd <repository-directory>
+git clone https://github.com/zaqihdyt13/entity-map-manager.git
+cd entity-map-manager
 ```
 
 ### 2. Run the Backend
